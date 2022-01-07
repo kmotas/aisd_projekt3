@@ -10,8 +10,8 @@ using namespace std;
 class Graph
 {
     private:
-        bool** adjacencyMatrix; // Tablica dynamiczna przechowuj¹ca wartoœci grafu.
-        int numVertices; // Zmienna przechowuj¹ca liczbê wierzcho³ków.
+        bool** adjacencyMatrix; // Tablica dynamiczna przechowujÄ…ca wartoÅ›ci grafu. 
+        int numVertices; // Zmienna przechowujÄ…ca liczbÄ™ wierzchoÅ‚kÃ³w.
 
     public:
         Graph(int numVertices); // Konstruktor.
@@ -19,17 +19,17 @@ class Graph
 
         ~Graph(); // Destruktor.
 
-        string GetIsolatedVertices(); // Wierzcho³ki izolowane.
-        string GetLoops(); // Pêtle.
-        string GetBiDirectionalEdges(); // Krawêdzie dwukierunkowe.
-        string GetInDegrees(); // Stopnie wchodz¹ce wszystkich wierzcho³ków.
-        string GetOutDegrees(); // Stopnie wychodz¹ce wszystkich wierzcho³ków.
+        string GetIsolatedVertices(); // WierzchoÅ‚ki izolowane.
+        string GetLoops(); // PÄ™tle.
+        string GetBiDirectionalEdges(); // KrawÄ™dzie dwukierunkowe.
+        string GetInDegrees(); // Stopnie wchodzÄ…ce wszystkich wierzchoÅ‚kÃ³w.
+        string GetOutDegrees(); // Stopnie wychodzÄ…ce wszystkich wierzchoÅ‚kÃ³w.
         string ToString(); // Graf jako string (w wersji macierzowej).
-        string GetNeighborsOfAllVertices(); // Wszyscy s¹siedzi dla ka¿dego wierzcho³ka grafu.
-        string GetVerticesThatAreNeighborsOfEachVertex(); // Wszystkie wierzcho³ki, które s¹ s¹siadami ka¿dego wierzcho³ka.
+        string GetNeighborsOfAllVertices(); // Wszyscy sÄ…siedzi dla kaÅ¼dego wierzchoÅ‚ka grafu.
+        string GetVerticesThatAreNeighborsOfEachVertex(); // Wszystkie wierzchoÅ‚ki, ktÃ³re sÄ… sÄ…siadami kaÅ¼dego wierzchoÅ‚ka.
 
-        void AddEdge(int i, int j); // Dodawanie krawêdzi.
-        void RemoveEdge(int i, int j); // Usuwanie krawêzi.
+        void AddEdge(int i, int j); // Dodawanie krawÄ™dzi.
+        void RemoveEdge(int i, int j); // Usuwanie krawÄ™dzi.
 };
 
 #endif // GRAPH_H
