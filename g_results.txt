@@ -1,0 +1,29 @@
+Wszyscy sasiedzi dla kazdego wierzcholka grafu:
+1: 2 3
+2: 1 3
+3: 1 2 4
+4: 3
+
+Nie znaleziono zadnego wierzcholka, ktory jest sasiadem kazdego wierzcholka!
+
+Stopnie wychodzace wszystkich wierzcholkow:
+1: 2
+2: 2
+3: 3
+4: 1
+
+Stopnie wchodzace wszystkich wierzcholkow:
+1: 2
+2: 2
+3: 3
+4: 1
+
+Zaden wierzcholek nie jest izolowany!
+
+Nie znaleziono zadnych petli!
+
+Lista krawedzi dwukierunkowych:
+1: 2
+1: 3
+2: 3
+3: 4
