@@ -49,7 +49,7 @@ int main()
     cout << g.GetBiDirectionalEdges() << endl << endl;
 
     // Zapisywanie danych do pliku testowego.
-    saveResults("g_results.txt", g.GetNeighborsOfAllVertices() + "\n\n" + g.GetVerticesThatAreNeighborsOfEachVertex() + "\n\n" + g.GetOutDegrees() + "\n\n" + g.GetInDegrees() + "\n\n" + g.GetIsolatedVertices() + "\n\n" + g.GetLoops() + "\n\n" + g.GetBiDirectionalEdges());
+    saveResults("g_results.txt", g.ToString() + "\n\n" + g.GetNeighborsOfAllVertices() + "\n\n" + g.GetVerticesThatAreNeighborsOfEachVertex() + "\n\n" + g.GetOutDegrees() + "\n\n" + g.GetInDegrees() + "\n\n" + g.GetIsolatedVertices() + "\n\n" + g.GetLoops() + "\n\n" + g.GetBiDirectionalEdges());
 
 
     // Graf wczytywany z pliku.
@@ -80,7 +80,7 @@ int main()
     cout << f.GetBiDirectionalEdges() << endl << endl;
 
     // Zapisywanie danych do pliku testowego.
-    saveResults("f_results.txt", f.GetNeighborsOfAllVertices() + "\n\n" + f.GetVerticesThatAreNeighborsOfEachVertex() + "\n\n" + f.GetOutDegrees() + "\n\n" + f.GetInDegrees() + "\n\n" + f.GetIsolatedVertices() + "\n\n" + f.GetLoops() + "\n\n" + f.GetBiDirectionalEdges());
+    saveResults("f_results.txt", f.ToString() + "\n\n" + f.GetNeighborsOfAllVertices() + "\n\n" + f.GetVerticesThatAreNeighborsOfEachVertex() + "\n\n" + f.GetOutDegrees() + "\n\n" + f.GetInDegrees() + "\n\n" + f.GetIsolatedVertices() + "\n\n" + f.GetLoops() + "\n\n" + f.GetBiDirectionalEdges());
 
 	return 0;
 }
